@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Anton;
+    src: url('../fonts/eng/Anton-Regular.ttf');
+}
+div.menu{
+    width: 100%;
+    height: 100px;
+    background-color: #2B2335;
+    
+}
+div.menu>nav{
+    width: 100%;
+    height: 100%;
+margin: 0px auto;
+
+}
+div.menu>nav>ul{
+    width: 100%;
+    height: 100%;
+   margin: 0 auto;
+   text-align: center;
+
+}
+div.menu>nav>ul>*{
+    width: 12.5%;
+    height: 100px;
+    display: inline-block;
+    margin-left: 100px;
+    font-family: Anton;
+    font-size: 35px;
+}
+div.menu>nav>ul>li.part1>a{
+    width: 100%;
+    height:100%;
+    display: inline-block;
+    margin: 25px auto;
+    color: snow;
+    transition-property: all;
+    transition-duration: 400ms;
+    transition-delay:100ms ;
+
+}
+div.menu>nav>ul>li.part2>a{
+    width: 100%;
+    height:100%;
+    display: inline-block;
+    margin: 25px auto;
+    color: snow;
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-delay:10ms ;
+}
+div.menu>nav>ul>li.part3>a{
+    width: 100%;
+    height:100%;
+    display: inline-block;
+    margin: 25px auto;
+    color: snow;
+    transition-property: all;
+    transition-duration: 400ms;
+    transition-delay:10ms ;
+}
+div.menu>nav>ul>li.part4>a{
+    width: 100%;
+    height:100%;
+    display: inline-block;
+    margin: 25px auto;
+    color: snow;
+    transition-property: all;
+    transition-duration:400ms;
+    transition-delay:10ms ;
+}
+div.menu>nav>ul>*:hover{
+    transition-property: all;
+    background-color: grey;
+    font-size: 45px;
+    transition-duration: 400ms;
+    transition-delay:100ms ;
+}

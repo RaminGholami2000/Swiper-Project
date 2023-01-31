@@ -1,0 +1,75 @@
+div.contact{
+    width: 100%;
+    background-color: #404040;
+}
+
+div.contact>form{
+display: block;
+margin-top: 5px ;
+margin-left: 50px;
+}
+div.contact>form>input[type=text]{
+    all: unset;
+    display: block;
+    width: 300px;
+    height: 20px;
+    border-radius: 5px ;
+    margin-top: 5px;
+    background-color: whitesmoke;
+    border: 0;
+    outline: unset;
+
+  
+}
+div.contact>form>input[type=email]{
+    all: unset;
+    display: block;
+    width: 300px;
+    height: 20px;
+    border-radius: 5px ;
+    margin-top: 5px;
+    background-color: whitesmoke;
+    border: 0;
+    outline: unset;
+
+
+}
+div.contact>form>textarea{
+    display: block;
+    width: 350px;
+    height: 350px;
+    resize: none;
+    margin-top: 5px;
+border-radius: 10px;
+border: unset;
+outline: unset;
+}
+div.contact>form>input[type=submit]{
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 0px auto;
+    border-radius: 10px;
+    background-color: #5A5A5A;
+    transition: 300ms;
+    transition-duration: 400ms;
+    transition-delay: 200ms;  
+    border: unset;
+    outline: unset;
+  
+    }
+div.contact>form>input[type=submit]:hover{
+    display: block;
+    width: 220px;
+    height: 70px;
+    font-size: 30px;
+    text-align: center;
+    background-color: whitesmoke;
+    color: #404040;
+    border-radius:20px ;
+    transition: 300ms;
+transition-duration: 400ms;
+transition-delay: 200ms;   
+border: unset;
+
+}

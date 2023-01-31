@@ -1,0 +1,51 @@
+@font-face {
+    font-family: Anton;
+    src: url('../fonts/eng/Anton-Regular.ttf');
+}
+@font-face {
+    font-family: Iran-Sans;
+    src: url('../fonts/fa/IRAN\ Sans\ Regular.ttf');
+}
+div.products{
+    width: 100%;
+  padding-top: 10px;
+    background-color: #212121;
+}
+div.products>div.product{
+    width: 20%;
+    padding: 50px;
+    background-color: whitesmoke;
+    display: inline-block;
+    direction: rtl;
+    margin-left: 70px;
+    font-family: Iran-Sans;
+    font-size: 15px;
+    transition: 700ms;
+    transition-duration: 300ms;
+    transition-delay: 400ms;
+}
+div.products>div.product>img{
+    width: 100%;
+    height: 200px;
+    display: inline-block;
+}
+div.products>div.product>a{
+    height: 50px;
+    display: block;
+    background-color: #29465B ;
+    text-transform:capitalize;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius:10px ;
+    margin: 0px auto;
+    text-align: center;
+    line-height: 50px;
+}
+div.products>div.product:hover{
+    box-shadow: 5px 5px black;
+    font-size: 17px;
+    transition: 700ms;
+    transition-duration: 300ms;
+    transition-delay: 400ms;
+   
+}
